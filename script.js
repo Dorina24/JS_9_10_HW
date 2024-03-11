@@ -48,3 +48,44 @@ let lungime = 5;
 let aria = latime * lungime;
 console.log(`Aria dreptunghiului cu latimea de 3 si lungimea de 5 este ${aria}.`);
 
+//comparatie 2 siruri de caractere
+
+let sir1 = 'xyzq';
+let sir2 = 'xyzq';       //identice
+console.log(`Sirurile sunt identice: ${sir1===sir2}`);
+
+sir2='xyz';              //neidentice
+console.log(`Sirurile sunt identice: ${sir1===sir2}`);
+
+//operatii cu variabile booleene
+
+let suntAngajata = true;
+let suntSomera = false;
+let rezultatSiLogic = suntAngajata && suntSomera;            
+console.log(`${suntAngajata} && ${suntSomera} => ${rezultatSiLogic}`);
+rezultatSiLogic = suntAngajata && suntAngajata;
+console.log(`${suntAngajata} && ${suntAngajata} => ${rezultatSiLogic}`);
+rezultatSiLogic = suntSomera && suntSomera;     
+console.log(`${suntSomera} && ${suntSomera} => ${rezultatSiLogic}`);
+let rezultatSauLogic = suntAngajata || suntSomera;
+console.log(`${suntAngajata} || ${suntSomera} => ${rezultatSauLogic}`);
+
+
+//calcul varsta
+let an = 1990;
+let anCurent = 2024;
+varsta = anCurent - an;
+console.log(`Varsta mea actuala este ${varsta}`);
+
+//concatenare + convertire in majuscule
+let nume1= 'Andra';
+let nume2 = 'Eusei';
+let sumNume = nume1+' '+nume2;
+let majuscula = sumNume.toUpperCase();
+console.log(`Numele intreg este: ${sumNume}, iar convertit in majuscule este: ${majuscula}`);
+
+//
+
+
+
+
