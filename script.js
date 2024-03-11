@@ -84,8 +84,19 @@ let sumNume = nume1+' '+nume2;
 let majuscula = sumNume.toUpperCase();
 console.log(`Numele intreg este: ${sumNume}, iar convertit in majuscule este: ${majuscula}`);
 
-//
+// >=100
+let numarX = 95;
+let numarY = 100;
+let numarComparat = numarX >= numarY;
+console.log(`${numarX} >= ${numarY} => ${numarComparat}`);
 
+//conversie in mile
+let numarKm = 18;
+console.log(`Distanta de ${numarKm} km convertita in mile este: ${numarKm*0.621371} mile.`);
+
+//null
+let numarNul = null;
+console.log(typeof numarNul); 
 
 
 
