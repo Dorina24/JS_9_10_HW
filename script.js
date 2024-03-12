@@ -166,7 +166,9 @@ console.log(andra.varstaMea);
 //Folosește o metoda a array-ului pentru a adauga încă un obiect reprezentand o carte.
 let carti = [{ titlu: 'Carte1', autor: 'Autor1', anPublicare: 2000 }, { titlu: 'Carte2', autor: 'Autor2', anPublicare: 1995 }];
 carti.push({titlu: 'Carte3', autor: 'Autor3', anPublicare: 2024 });
-console.log(carti);
+console.log(carti); 
+
+
 
 
 
